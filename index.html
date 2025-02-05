@@ -7,13 +7,14 @@
     <meta name="author" content="Beatriz Santina">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
 <body>
     <!-- Cabeçalho da Página (header) -->
 		<header>
             
-            <div id="header_content">
+            <div id="header_content" class="flex">
                 <div id="titulo">
                     <h1>Beatriz Santina</h1>
                 </div>
@@ -37,10 +38,10 @@
 		<!-- Seção Principal da Página (main) -->
 		<main>
 
-            <section id="about">
+            <section id="about" class="flex_start">
                 <h2>Sobre a Beatriz Santina</h2>
-                <div id="conteudo">
-                    <img src="https://ik.imagekit.io/mtetd06wl/438F1918-8A28-4DA3-90E4-5528AB9A44E2.jpg?updatedAt=1738612732158" alt="Foto do criador desse conteudo">
+                <div id="conteudo" class="flex">
+                    <img src="https://ik.imagekit.io/mtetd06wl/438F1918-8A28-4DA3-90E4-5528AB9A44E2.jpg?updatedAt=1738612732158" alt="Foto do criador desse conteudo" class="img_profile">
                 </div>
                 <article id="sobre_texto">
                     <p>
@@ -52,10 +53,10 @@
                     </p>
                 </article>
             </section>
-            <section id="video">
+            <section id="video" class="flex_start">
                 <h2>Minha música favorita</h2>
 
-                <div id="youtube">
+                <div id="youtube" class="flex">
                     
                     <iframe 
                         width="560"
@@ -71,7 +72,7 @@
         </main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<footer class="flex">
 
             <section id="redes_sociais">
                 <a href="">

@@ -7,13 +7,15 @@
     <meta name="author" content="Beatriz Santina">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Meu Perfil</title>
 </head>
 <body>
     <!-- Cabeçalho da Página (header) -->
 		<header>
             
-            <div id="header_content">
+            <div id="header_content" class="flex">
                 <div id="titulo">
                     <h1>Beatriz Santina</h1>
                 </div>
@@ -37,6 +39,7 @@
 		<!-- Seção Principal da Página (main) -->
 		<main>
 
+            <div id="contact" class="flex">
             <form action="#" method="submit" id="formulario">
                 <label for="nome">Nome: </label>
                 <input
@@ -79,19 +82,19 @@
 
                 <button type="submit">Enviar</button>
             </form>
-
+        
             <!-- Seção do Google Maps -->
-            <article id="mapa">
+            <article id="mapa" class="flex_start">
                 <p>Rua Tabuleuiro, 95</p>
                 <p>São Paulo - SP</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0573555356814!2d-46.49638202385895!3d-23.60227587877178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67c30e49cd4f%3A0xd5b2268cabfef53a!2sR.%20Tabuleiro%2C%2095%20-%20Jardim%20Tiete%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003944-180!5e0!3m2!1spt-BR!2sbr!4v1738615687626!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
         </section>
-
+    </div>
         </main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<footer class="flex">
 
             <section id="redes_sociais">
                 <a href="">

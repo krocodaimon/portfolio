@@ -17,7 +17,7 @@ Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CS
 ## Executando Localmente
 
 Para visualizar o projeto localmente, siga as instruções abaixo:
-
+g
 ### Pré-requisitos
 
 - [Visual Studio Code](https://code.visualstudio.com/) (ou outro editor de sua preferência)
